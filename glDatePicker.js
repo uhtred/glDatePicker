@@ -351,7 +351,7 @@
 					.children().remove();
 
 				// Bind to resize event to position calendar
-				var onResize = function() {
+				/*var onResize = function() {
 					var elPos = el.offset();
 					calendar.css(
 					{
@@ -361,6 +361,7 @@
 				};
 				$(window).resize(onResize);
 				onResize();
+                               */
 
 				// Create variables for cells
 				var cellCSS =
